@@ -1,9 +1,30 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+
+        <!-- Google Calligraphy Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+        <style>
+            .calligraphy-text {
+                position: absolute;
+                top: 20px;
+                left: 50%;
+                transform: translateX(-50%);
+                font-family: 'Great Vibes', cursive;
+                font-size: 60px;
+                color: #6b3573;
+                text-align: center;
+                z-index: 999;
+                pointer-events: none;
+            }
+        </style>
     </head>
     <body>
-        
+
+        <!-- Calligraphy Text (Center Top) -->
+        <div class="calligraphy-text">Khairina Sayang</div>
+
         <div class="flower">
             <div class="f-wrapper">
                 <div class="flower__line"></div>
@@ -18,7 +39,7 @@
                     <div class="flower__leaf flower__leaf--8 flower__fall-down--yellow"></div>
                 </div>
             </div>
-    
+
             <div class="f-wrapper f-wrapper--2">
                 <div class="flower__line"></div>
                 <div class="f">
@@ -32,7 +53,7 @@
                     <div class="flower__leaf flower__leaf--8 flower__fall-down--pink"></div>
                 </div>
             </div>
-    
+
             <div class="f-wrapper f-wrapper--3">
                 <div class="flower__line"></div>
                 <div class="f">
@@ -46,8 +67,9 @@
                     <div class="flower__leaf flower__leaf--8 flower__fall-down--purple"></div>
                 </div>
             </div>
+
             <div class="flower__glass"></div>
         </div>
-    
+
     </body>
 </html>
