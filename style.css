@@ -21,6 +21,19 @@ body{
     overflow: hidden;
 }
 
+.calligraphy-text {
+            position: fixed;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-family: 'Great Vibes', cursive;
+            font-size: 60px;
+            color: white;
+            z-index: 999999;
+            text-shadow: 0 0 8px rgba(255,255,255,0.6);
+            pointer-events: none;
+        }
+
 .flower{
     position: relative;
 }
@@ -350,3 +363,4 @@ body{
         transform:translate(-36vmin,1.1vmin) rotateY(-80deg) rotateX(35deg);
     }
 }
+
