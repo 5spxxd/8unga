@@ -4,103 +4,35 @@
     <meta charset="UTF-8">
     <title>Flower</title>
 
-    <!-- GOOGLE CALLIGRAPHY FONT -->
+    <!-- Load Calligraphy Font -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 
-    <!-- MAIN CSS -->
+    <!-- Add this mini CSS -->
     <style>
-        body {
-            margin: 0;
-            background: radial-gradient(circle, #060822, #000000);
-            overflow: hidden;
-            height: 100vh;
-        }
-
-        /* Calligraphy Text */
         .calligraphy-text {
             position: fixed;
-            top: 25px;
+            top: 30px;
             left: 50%;
             transform: translateX(-50%);
             font-family: 'Great Vibes', cursive;
             font-size: 60px;
-            color: #ffffff;
-            text-shadow: 0 0 10px rgba(255,255,255,0.7);
-            z-index: 999999; 
+            color: white;
+            z-index: 999999;
+            text-shadow: 0 0 8px rgba(255,255,255,0.6);
             pointer-events: none;
         }
-
-        /* -------------------------
-           FLOWER STYLES (YOUR CODE)
-        -------------------------- */
-
-        .flower {
-            position: absolute;
-            left: 50%;
-            top: 55%;
-            transform: translate(-50%, -50%);
-        }
-
-        .flower__glass {
-            width: 130px;
-            height: 200px;
-            background: rgba(0, 100, 120, 0.25);
-            border-radius: 5px;
-            margin: auto;
-            position: relative;
-            top: 0;
-        }
-
-        .f-wrapper {
-            position: relative;
-        }
-
-        .flower__line {
-            width: 6px;
-            height: 230px;
-            background: #326566;
-            margin: auto;
-            border-radius: 5px;
-        }
-
-        .f {
-            position: absolute;
-            bottom: 220px;
-            left: 50%;
-            transform-origin: bottom center;
-        }
-
-        .flower__leaf {
-            width: 50px;
-            height: 70px;
-            background: pink;
-            border-radius: 50px 50px 0 0;
-            position: absolute;
-            top: 0;
-            left: -25px;
-        }
-
-        .flower__leaf--1 { transform: rotate(0deg); }
-        .flower__leaf--2 { transform: rotate(45deg); }
-        .flower__leaf--3 { transform: rotate(90deg); }
-        .flower__leaf--4 { transform: rotate(135deg); }
-        .flower__leaf--5 { transform: rotate(180deg); }
-        .flower__leaf--6 { transform: rotate(225deg); }
-        .flower__leaf--7 { transform: rotate(270deg); }
-        .flower__leaf--8 { transform: rotate(315deg); }
-
-        .flower__fall-down--yellow { background: gold; }
-        .flower__fall-down--pink { background: hotpink; }
-        .flower__fall-down--purple { background: purple; }
-
     </style>
+
+    <!-- Your CSS file -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
-    <!-- ✨ CALLIGRAPHY TEXT -->
+    <!-- The Calligraphy Text -->
     <div class="calligraphy-text">Khairina Sayang</div>
 
-    <!-- 🌸 FLOWER -->
+    <!-- Your flower HTML -->
     <div class="flower">
         <div class="f-wrapper">
             <div class="flower__line"></div>
